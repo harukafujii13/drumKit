@@ -7,7 +7,7 @@ for (var i = 0; i < numberOfDrumButons; i++){
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         // alert("I got clicked!");
     
-       console.log(this);
+       this.style.color = "white";
 
         
        });

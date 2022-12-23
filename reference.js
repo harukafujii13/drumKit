@@ -18,4 +18,4 @@ function calculator(num1, num2, operator) {
     return operator(num1, num2);
 }
 
-console.log(calculator(4,5,add));
+console.log(calculator(4,5,multiply));
