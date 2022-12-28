@@ -17,6 +17,9 @@ function HouseKeeper (yearsOfExperience, name, cleaningRepertoria) {
     this.yearsOfExperience = yearsOfExperience;
     this.name = name;
     this.cleaningRepertoria = cleaningRepertoria;
+    this.clean = function () {
+        alert("cleaning is progress...");
+    }
 }
 
 var houseKeeper1 = new HouseKeeper(9, "Tom", ["bedroom", "lobby"]);
